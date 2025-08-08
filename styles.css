@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
+
+:root {
+  --color-primary: #0052CC;
+  --color-secondary: #6B7280;
+  --color-background: #F5F7FA;
+  --color-text: #333333; 
+  
+  --bs-primary: var(--color-primary);
+  --bs-body-color: var(--color-text);
+  --bs-body-bg: var(--color-background);
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.navbar-logo {
+    height: 75px;
+    border-radius: 25px;
+}
+
+.feature-icon {
+    fill: var(--color-primary);
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
