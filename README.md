@@ -37,7 +37,7 @@ Vous pouvez voir le projet en ligne ici :
 [DigitalCraft](https://digital-craft31.netlify.app)
 
 ## Apreçu
-![Aperçu](aprecu.png)
+![Aperçu](image/apercu.png)
 
 ---
 
